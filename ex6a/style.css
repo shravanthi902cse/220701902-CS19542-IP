@@ -1,0 +1,65 @@
+/* Import the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9; /* Light background */
+    color: #333333; /* Dark grey text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Container for the Content */
+#content {
+    background-color: #ffffff; /* White background for contrast */
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: box-shadow 0.3s ease;
+}
+
+#content:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling for the Button */
+button {
+    background-color: #254441; /* Deep green for professionalism */
+    border: none;
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #3e7065; /* Lighter green on hover */
+    transform: translateY(-2px);
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    #content {
+        width: 80%;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

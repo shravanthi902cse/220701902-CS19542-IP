@@ -1,0 +1,9 @@
+What is Ajax?
+
+Asynchronous JavaScript and XML (Ajax) refer to a group of technologies that are used to develop web applications. By combining these technologies, web pages appear more responsive since small packets of data are exchanged with the server and web pages are not reloaded each time that a user makes an input change. Ajax enables a web application user to interact with a web page without the interruption of constant web page reloading. Website interaction happens quickly with only portions of the page reloading and refreshing.
+Ajax is made up of the following technologies:
+XHTML and CSS for presenting information.
+Document Object Model (DOM) for dynamically interacting with and displaying the presented information.
+XMLHttpRequest object to manipulate data asynchronously with the web server.
+XML, HTML, and XSLT for data interchange and manipulation.
+JavaScript for binding data requests and information display.

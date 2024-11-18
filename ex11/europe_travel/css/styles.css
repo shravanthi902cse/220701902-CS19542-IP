@@ -1,0 +1,18 @@
+body {
+    background-color: #c2d1c6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background-color: #51c0cc;
+    color: white;
+    padding: 80px 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(209, 129, 129, 0.1);
+}
+
+footer {
+    margin-top: 50px;
+}

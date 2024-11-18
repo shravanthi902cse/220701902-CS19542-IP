@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Example</title>
+    
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Include jQuery from a CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script>
+        // AJAX function to load content from rec.txt
+        function loadContent() {
+            $.ajax({
+                url: 'rec.txt', // URL of the text file
+                method: 'GET',  // Use GET request
+                success: function(response) {
+                    $('#content').text(response);
+                },
+                error: function() {
+                    $('#content').text('Failed to load content.');
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Div to display the content -->
+    <div id="content">Click the button to load content from the text file</div>
+    <button onclick="loadContent()">Load Content</button>
+
+</body>
+</html>
